@@ -7,7 +7,7 @@ public class App
 {
 
 
-    public static void loop() throws InterruptedException {
+    public static void main() throws InterruptedException {
 	while(true)
 	{
 		System.out.println("HelloWorld!");
