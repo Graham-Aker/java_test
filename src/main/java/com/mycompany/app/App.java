@@ -6,21 +6,14 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "Hello World!";
 
-    public App() {}
-
-    public static void main(String[] args) {
+    public static void loop() throws InterrupedException {
 	while(true)
 	{
-		System.out.println(new App().getMessage());
+		System.out.println("HelloWorld!");
 		Thread.sleep(10000);
 
 	}
-    }
-
-    private final String getMessage() {
-        return message;
     }
 
 }
